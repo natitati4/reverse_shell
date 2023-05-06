@@ -1,0 +1,5 @@
+﻿  prototype.c
+D:\other_projects\reverse_shell\reverse_shell\cPrototype\prototype.c(22,82): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+D:\other_projects\reverse_shell\reverse_shell\cPrototype\prototype.c(22,78): warning C4024: 'WSASocketA': different types for formal and actual parameter 6
+D:\other_projects\reverse_shell\reverse_shell\cPrototype\prototype.c(47,88): warning C4133: 'function': incompatible types - from 'STARTUPINFO *' to 'LPSTARTUPINFOA'
+  cPrototype.vcxproj -> D:\other_projects\reverse_shell\reverse_shell\Debug\cPrototype.exe

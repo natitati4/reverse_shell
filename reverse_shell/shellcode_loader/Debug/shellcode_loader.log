@@ -1,0 +1,4 @@
+﻿  main.c
+D:\other_projects\reverse_shell\reverse_shell\shellcode_loader\main.c(10,36): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+D:\other_projects\reverse_shell\reverse_shell\shellcode_loader\main.c(8,1): warning C4133: 'initializing': incompatible types - from 'unsigned short [60]' to 'char *'
+  shellcode_loader.vcxproj -> D:\other_projects\reverse_shell\reverse_shell\Debug\shellcode_loader.exe
