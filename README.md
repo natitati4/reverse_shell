@@ -3,11 +3,8 @@ A shellcode written in MASM assembly that connects to a server through TCP, crea
 
 How to use:
 
--Initialize a TCP server using `ncat -nvlp 9000`
-
+-Initialize a TCP server using `ncat -nvlp 9000`\
 -Inject the shellcode into a vulnerable program (or use the shellcode loader i provided to just test it. Be sure to change the path, and run with admin priviliges).
-
-
 
 Now you have a shell of the remote machine.
 
