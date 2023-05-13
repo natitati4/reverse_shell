@@ -278,7 +278,7 @@ main proc
         push    10h  ; sizeof(struct sockaddr_in)
         mov     [ebp + sockaddr_in_struct], 2h  ; family (AF_INET = 2)
         mov     [ebp + sockaddr_in_struct + 2h], 2823h  ; port 9000
-        mov     [ebp + sockaddr_in_struct + 4h], 0D801A8C0h  ; ip 192.168.1.216
+        mov     [ebp + sockaddr_in_struct + 4h], 0DA01A8C0h  ; ip 192.168.1.218
         lea     eax, [ebp + sockaddr_in_struct]      ; ptr to sockaddr_in struct
         push    eax
         push    ebx     ; socket file descripter
