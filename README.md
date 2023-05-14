@@ -5,7 +5,7 @@ Works only on 32-bit processes, as of now.
 How to use:
 
 -Initialize a TCP server using `ncat -nvlp 9000`\
--Inject the shellcode into a vulnerable program (or use the shellcode loader i provided to just test it. Be sure to change the path, and run with admin priviliges).
+-Inject the shellcode into a vulnerable program (or use the shellcode loader i provided to just test it. Be sure to change the path, and run with admin priviliges).\
 -Another option is to use the injector i provided, to inject it into a 32-bit process. Usage: injector.exe process_name
 
 Now you have a shell of the remote machine.
